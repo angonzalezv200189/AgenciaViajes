@@ -10,6 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "Destino: $destino<br>";
     echo "Fecha: $fecha<br>";
 
+    // Este es un comentario de prueba en PHP
+    
     // Supongamos que la consulta a la base de datos devuelve resultados de vuelos
     echo "<p>Vuelo disponible: $origen a $destino el $fecha</p>";
 }
